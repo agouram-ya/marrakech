@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Home guides</title>
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <style>
+
+    
+     ul li{
+        font-size: 30px;
+        list-style: none;
+    }
+    nav ul{
+        display: flex;
+        flex: 1 1 20rem;
+        justify-content: space-around;
+    }
+     nav a{
+        text-decoration: none;
+        color:white;
+    }
+    nav{
+        background: rgb(173, 17, 30);
+        display: flex;
+       
+        margin: auto;
+        padding: 1px;
+    }
+    h1{
+        color: rgb(243, 243, 233);
+        font-family: 'Rubik Wet Paint', cursive;
+        flex: 1 1 40rem;
+    }
+    section article{
+        align-items: center;
+        text-align: center;
+        font-size: 30px;
+        color:rgb(238, 229, 229);
+    }
+    
+    /*section*/
+    
+    .hero{
+        min-height: 100vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 40px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    footer{
+       position: relative;
+       width: 95%;
+       min-height: 100px;
+       padding:20px 50px;
+       display: flex;
+       background:rgba(180, 28, 28, 0.8);
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+     }
+     footer .social,footer .MENU {
+         position: relative;
+         display: flex;
+         margin:  10px 0;
+         justify-content: center;
+         align-items: center;
+
+      }
+     footer .social li a{
+         color:white;
+         margin: 0 10px;
+         display: inline-block;
+         font-size: 2rem;
+         transition: 0.5s;
+     }
+     footer .MENU li a{
+        color:white;
+         margin: 0 10px;
+         display: inline-block;
+         text-decoration: none;
+         opacity: 0.75;
+     }
+     footer .MENU li a:hover{
+        opacity: 1;
+      }
+     footer .social li a:hover{
+         transform: translateY(-20px);
+      }
+      footer p{
+          color: white;
+          text-align: center;
+          margin-top: 15px;
+          margin-bottom: 10px;
+          font-size: 1.1rem;
+      }
+    body{
+        background:linear-gradient(black,transparent),url("q7.jpeg");
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+    }
+    h3{
+        font-style: italic;
+        font-size: 2rem;
+    }
+    h2{
+        font-family: 'Rubik Wet Paint', cursive;
+        font-size: 6rem;
+    }
+    
+    </style>
+    
+</head>
+<body>
+   
+    <header>
+        <nav>
+            <h1>Marrakech</h1>
+            <ul>
+                <li> <a href="HOME.html">Home</a></li>
+                <li> <a href=" city.html">City</a> </li>
+                <li> <a href="places.html">places </a></li>
+                <li><a href="contact.html"> contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <article>
+            <h2>Marrakech travel guides</h2>
+            <h3><i> A comrehensive guides that lists the hottest places in Marrakech</i></h3>
+            
+        </article>    
+    </section>
+    <footer>
+        <ul class="social">
+      <li> <a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li> 
+      <li> <a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      <li> <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+      <li> <a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+      <li> <a href="#"><ion-icon name="mail-unread-outline"></ion-icon></a></li>
+      </ul>
+      <br>
+      <ul class="MENU">
+        <li> <a href="#">Home</a></li> 
+        <li> <a href="#">Services</a></li>
+        <li> <a href="#">contact</a></li>
+        <li> <a href="#">Team</a></li>
+    </ul>
+    <p><ion-icon name="chevron-forward-circle-sharp"></ion-icon>2022 Online Tutoriale-All Rights Reserved</p>
+  </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

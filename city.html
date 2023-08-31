@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <style>
+     ul li{
+            font-size: 25px;
+            list-style: none;
+        }
+        nav ul{
+            display: flex;
+            flex: 1 1 20rem;
+            justify-content: space-around;
+        }
+         nav a{
+            text-decoration: none;
+            color:white;
+        }
+        nav{
+            background: rgb(167, 26, 26);
+            display: flex;
+           
+            margin: auto;
+            padding: 1px;
+        }
+       h1{
+           position: relative;
+           color: rgb(243, 243, 233);
+           font-family: 'Rubik Wet Paint', cursive;
+           flex: 1 1 40rem;
+        }
+        .hero {
+            font-size: x-large;
+            font-style: initial;
+            color:rgb(226, 213, 213);
+            background:linear-gradient(rgba(9, 7, 7, 1.5),transparent) ;
+            width: 50%;
+            text-align: center;
+        }
+        body{
+            background-image:url("cha.jpg");
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        
+       }
+       footer{
+       position: relative;
+       width: 95%;
+       min-height: 100px;
+       padding:20px 50px;
+       display: flex;
+       background:rgba(180, 28, 28, 0.8);
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+     }
+     footer .social,footer .MENU {
+         position: relative;
+         display: flex;
+         margin:  10px 0;
+         justify-content: center;
+         align-items: center;
+
+      }
+     footer .social li a{
+         color:white;
+         margin: 0 10px;
+         display: inline-block;
+         font-size: 2rem;
+         transition: 0.5s;
+     }
+     footer .MENU li a{
+        color:white;
+         margin: 0 10px;
+         display: inline-block;
+         text-decoration: none;
+         opacity: 0.75;
+     }
+     footer .MENU li a:hover{
+        opacity: 1;
+      }
+     footer .social li a:hover{
+         transform: translateY(-20px);
+      }
+      footer p{
+          color: white;
+          text-align: center;
+          margin-top: 15px;
+          margin-bottom: 10px;
+          font-size: 1.1rem;
+      }
+    </style>
+
+  
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Marrakech</h1>
+            <ul>
+                <li> <a href="HOME.html">Home</a></li>
+                <li> <a href="city.html">City</a> </li>
+                <li> <a href="places.html">places </a></li>
+                <li><a href="contact.html"> contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside style="float: right;">
+        <video autoplay="autoplay"  muted="" controls="" loop="infinite" width="500" height="300"  src="v m2.mp4"></video><br> 
+        <video autoplay="autoplay"  muted="" controls="" loop="infinite" width="500" height="300"  src="M video.mp4"></video>    
+    </aside>
+    <section class="hero">
+        <article>  
+        <h3>Marrakech The pearl of the south...</h3>
+        <p><em>Marrakech is undoubtedly the most exotic city in Morocco.<br>
+             It has always been appreciated for its particularity.<br>
+        Arab poets called it "the pearl of the south, coming out of the Atlas".<br>
+        It is also nicknamed "the red city" or "the city of gardens". <br>
+        In winter, one admires the snow-capped peaks of the Atlas on the southern horizon and in summer the city burns under the desert sun.<br> Marrakech is clearly divided into two different cities:<br>
+        the Medina protected by a great wall and the new city, Gueliz.<br>
+         Gueliz offers all the possibilities of a modern city.</em></p>
+        </article>
+        <article>
+          <p><i> was founded as a commercial and artisanal center by an ancient Berber population that dominated southern Morocco.<br> It is one of the four royal cities (Fez, Meknes, Rabat and Marrakech)<br>
+        and offers many buildings and monuments that document its history. 
+        <br>The Medina of Marrakech is surrounded by a large earthen wall of 20 km,<br>
+        rust-colored that turns purple in the light of the setting sun.<br>
+        A coach ride along the walls at sunset is a unique experience</i></p>
+         </article>  
+        </section>  
+        <footer>
+            <ul class="social">
+          <li> <a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li> 
+          <li> <a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+          <li> <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+          <li> <a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li> <a href="#"><ion-icon name="mail-unread-outline"></ion-icon></a></li>
+          </ul>
+          <br>
+          <ul class="MENU">
+            <li> <a href="#">Home</a></li> 
+            <li> <a href="#">Services</a></li>
+            <li> <a href="#">contact</a></li>
+            <li> <a href="#">Team</a></li>
+        </ul>
+        <p><ion-icon name="chevron-forward-circle-sharp"></ion-icon>2022 Online Tutoriale-All Rights Reserved</p>
+      </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
